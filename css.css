@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+section {
+    width: 100vw;
+}
+
+.button {
+    text-decoration: none;
+    width: 207px;
+    height: 51px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+
+.head {
+    background-color: #131313;
+    width: 100vw;
+    height: 83px;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+}
+
+.container {
+    width: 1263px;
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+
+}
+
+.name-comp {
+    color: #E3B873;
+    text-decoration: none;
+}
+
+
+.spisk {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.spisk-a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.spisk-a:hover {
+    color: #E3B873;
+
+}
+
+.tel {
+    color: #E3B873;
+    margin-left: 67px
+}
+
+
+
+.button-nav {
+    color: white;
+    background: #E3B873;
+    margin-left: 45px;
+    border: 0;
+}
+
+.button-nav:hover {
+    background: none;
+    border: 2px;
+    border-color: #E3B873;
+    border-style: solid;
+}
+
+.main {
+    background: url(./images/images-face.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.black-out {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.main-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    z-index: 50;
+}
+
+.text {
+    font-size: 22 px;
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.span-h1 {
+    color: #E3B873;
+    font-family: 'Yeseva One', cursive;
+}
+
+.button-calculate {
+    color: white;
+    background: #E3B873;
+    border: 0;
+}
+
+.button-calculate:hover {
+    background: transparent;
+    border: 2px;
+    border-color: #E3B873;
+    border-style: solid;
+}
+
+.button-submi {
+    color: white;
+    background: transparent;
+    border: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+.button-submi:hover {
+    background: #E3B873;
+    border: 0;
+}
